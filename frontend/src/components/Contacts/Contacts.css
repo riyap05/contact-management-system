@@ -1,0 +1,32 @@
+
+
+.contacts-container {
+    padding: 20px;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.contact-actions button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.contact-actions button:hover {
+    background-color: darkred;
+}

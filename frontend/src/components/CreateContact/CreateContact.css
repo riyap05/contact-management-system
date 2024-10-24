@@ -1,0 +1,39 @@
+
+.create-contact {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.create-contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-contact input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-contact button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-contact button:hover {
+    background-color: #45a049;
+}
